@@ -1,0 +1,14 @@
+#compra{
+	.navbar{
+		margin-bottom:0;
+		.container{
+			.nav{
+				.active{
+					a{
+						background: $coral;
+					}
+				}
+			}
+		}
+	}
+}

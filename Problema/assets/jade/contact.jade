@@ -1,0 +1,121 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel="stylesheet", href="Problema/assets/css/main.css")
+    link(rel="stylesheet", href="Problema/assets/fonts/css/font-awesome")
+    link(rel="stylesheet", href="Problema/assets/fonts/css/font-awesome.min")
+  body
+    header#default
+      .navbar.navbar-default.navbar-fixed
+        .container
+            a.navbar-brand(href='#') Default Welcome Msg!
+            ul.nav.navbar-nav.navbar-right
+              li.dropdown
+                a.dropdown-toggle(href='#', data-toggle='dropdown')
+                  img(src="Problema/assets/images/flag1.png", alt="")
+                  |  Languaje
+                  span.caret
+              li.dropdown
+                a.dropdown-toggle(href='#', data-toggle='dropdown')
+                  | Currency 
+                  span.caret
+              li.dropdown
+                a.dropdown-toggle(href='#', data-toggle='dropdown')
+                  | My Acount 
+                  span.caret
+    header#logo
+      .container
+        .row
+          .col-md-4
+            h2 OPENING TIME
+            span 9.00 AM-10.00 PM
+          .col-md-4
+            img(src="Problema/assets/images/logo.png", alt="logo")
+          .col-md-4
+            input(type="text",placeholder="search")
+    header#compra
+      .navbar.navbar-default.navbar-fixed(role='navigation')
+        .container
+          .navbar-header
+            button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+          ul.nav.navbar-nav
+            li.active
+              a(href='index.html') HOME
+            li
+              a(href='contact.html') CONTACT US
+    section#banner
+      .container
+        .row
+          .col-md-6.white
+            h1 CONTACT US
+          .col-md-6.white.text
+            p Contact info
+            p phone:0(1234) 567890
+            p Mail:infor@roadthemes.com
+            p Address:No 40 Baria Sreet 133/2 NewYork City, NY, United States
+    section#mapa
+      .container
+        .row
+          .col-md-6
+            .map
+              iframe(src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d24212.88069314731!2d-73.9611279!3d40.6605247!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25b0e68bf8bc1%3A0x57422fe45b635cda!2sBrooklyn+Botanic+Garden!5e0!3m2!1ses!2spe!4v1459366833358" width="600" height="450" frameborder="0" style="border:0" allowfullscreen)
+          .col-md-6
+            row
+              .col-md-6
+                input.input-block-level.form-control(type="text",    name="username", placeholder="First name")
+                input.input-block-level.form-control(type="text", name="email", placeholder="Email")
+              .col-md-6
+                input.input-block-level.form-control(type="text", name="name", placeholder="Last name")
+                input.input-block-level.form-control(type="text", name="web", placeholder="Web site")
+              .col-md-12 
+                input.form-control.form-control(type="text", name="subject", placeholder="Subject")
+                textarea.form-control(type="text" value="remember-me") Message
+                button.btn.btn-large.btn-primary.pull-right(type="submit") SEND
+    section#final
+      .container
+        .row
+          .col-md-3
+            h4 ACCESSORIES
+            p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor incididunt ut labor et dollore magna aliqua.ut enim ad minim veniam quis nostrud exercitation ullamco laboris
+          .col-md-2
+              h4 MY ACCOUNT
+            ul
+              li My Account
+              li Order History
+              li Wish List
+              li Newsletter
+          .col-md-2
+            h4 INFORMATION
+            ul
+              li About Us
+              li Delivery Information
+              li Privacy Policy
+              li Terms & Conditions
+          .col-md-2
+            h4 EXTRAS
+            ul
+              li Brands
+              li Gift Vouchers
+              li Affiliates
+              li Specials
+          .col-md-3
+            p 8901 Marmora Road,Glasgow DO4 89 GR.New York
+            p (0123)456789
+            p (0987)654321
+            p admin@bootExperts.com
+    footer
+      .container
+        .row
+          .col-md-6.pull-left
+            a Copyright © 2015 
+            span BootExpert 
+            a All rights reserved
+          .col-md-6.pull-right
+            img(src="Problema/assets/images/payment.png", alt="")

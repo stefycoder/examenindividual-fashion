@@ -1,0 +1,140 @@
+doctype html
+html(lang='en')
+  head
+    meta(charset='utf-8')
+    meta(http-equiv='X-UA-Compatible', content='IE=edge')
+    meta(name='viewport', content='width=device-width, initial-scale=1')
+    link(rel="stylesheet", href="Problema/assets/css/main.css")
+    link(rel="stylesheet", href="Problema/assets/fonts/css/font-awesome")
+    link(rel="stylesheet", href="Problema/assets/fonts/css/font-awesome.min")
+  body
+    header#default
+      .navbar.navbar-default.navbar-fixed
+        .container
+            a.navbar-brand(href='#') Default Welcome Msg!
+            ul.nav.navbar-nav.navbar-right
+              li.dropdown
+                a.dropdown-toggle(href='#', data-toggle='dropdown')
+                  img(src="Problema/assets/images/flag1.png", alt="")
+                  |  Languaje
+                  span.caret
+              li.dropdown
+                a.dropdown-toggle(href='#', data-toggle='dropdown')
+                  | Currency 
+                  span.caret
+              li.dropdown
+                a.dropdown-toggle(href='#', data-toggle='dropdown')
+                  | My Acount 
+                  span.caret
+    header#logo
+      .container
+        .row
+          .col-md-4
+            h2 OPENING TIME
+            span 9.00 AM-10.00 PM
+          .col-md-4
+            img(src="Problema/assets/images/logo.png", alt="logo")
+          .col-md-4
+            input(type="text",placeholder="search")
+    header#compra
+      .navbar.navbar-default.navbar-fixed(role='navigation')
+        .container
+          .navbar-header
+            button.navbar-toggle(type='button', data-toggle='collapse', data-target='.navbar-collapse')
+              span.sr-only Toggle navigation
+              span.icon-bar
+              span.icon-bar
+              span.icon-bar
+          ul.nav.navbar-nav
+            li.active
+              a(href='index.html') HOME
+            li
+              a(href='contact.html') CONTACT US
+    #myCarousel.carousel.slide(data-ride='carousel')
+      ol.carousel-indicators
+        li.active(data-target='#myCarousel', data-slide-to='0')
+        li(data-target='#myCarousel', data-slide-to='1')
+      .carousel-inner
+        .item.active
+          img(src='Problema/assets/images/slider1.jpg', alt='First slide')
+          .container
+            .carousel-caption
+              h1 AUTUMN/WINTER LOOKBOOK
+              p
+                |-2016 COLLECTION-
+        .item
+          img(src='Problema/assets/images/slider2.jpg', alt='Second slide')
+          .container
+            .carousel-caption
+              h1 AUTUMN/WINTER LOOKBOOK
+              p
+                |-2016 COLLECTION-
+      a.left.carousel-control(href='#myCarousel', role='button', data-slide='prev')
+        span.glyphicon.glyphicon-chevron-left
+      a.right.carousel-control(href='#myCarousel', role='button', data-slide='next')
+        span.glyphicon-chevron-right
+    section#foto
+      .container
+        .row
+          .col-md-5
+            .banner1
+          .col-md-7
+            .banner2
+        nav
+          ul.pager
+            li 
+              a(href="#") LATEST
+            li
+              a( href="#") BESTSELLER
+            li
+              a( href="#") SALE
+    section
+      .container
+        .row
+          .col-md-3
+          .col-md-3
+          .col-md-3
+          .col-md-3
+    section#final
+      .container
+        .row
+          .col-md-3
+            h4 ACCESSORIES
+            p  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed do eiusmod tempor incididunt ut labor et dollore magna aliqua.ut enim ad minim veniam quis nostrud exercitation ullamco laboris
+          .col-md-2
+              h4 MY ACCOUNT
+            ul
+              li My Account
+              li Order History
+              li Wish List
+              li Newsletter
+          .col-md-2
+            h4 INFORMATION
+            ul
+              li About Us
+              li Delivery Information
+              li Privacy Policy
+              li Terms & Conditions
+          .col-md-2
+            h4 EXTRAS
+            ul
+              li Brands
+              li Gift Vouchers
+              li Affiliates
+              li Specials
+          .col-md-3
+            p 8901 Marmora Road,Glasgow DO4 89 GR.New York
+            p (0123)456789
+            p (0987)654321
+            p admin@bootExperts.com
+    footer
+      .container
+        .row
+          .col-md-6.pull-left
+            a Copyright © 2015 
+            span BootExpert 
+            a All rights reserved
+          .col-md-6.pull-right
+            img(src="Problema/assets/images/payment.png", alt="")
+    script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js')
+    script(src='#{pathToAssets}/dist/js/bootstrap.min.js')
